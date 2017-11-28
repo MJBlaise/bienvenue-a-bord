@@ -38,7 +38,7 @@ function Home(props, context) {
     <div>
       <div className="row">
         <div className="col-lg-12">
-          <PageHeader>MJ essaie à nouveau avant de tout casser :D</PageHeader>
+          <PageHeader>MJ test 2</PageHeader>
         </div>
       </div>
 
