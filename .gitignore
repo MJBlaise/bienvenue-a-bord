@@ -1,3 +1,6 @@
-
+.gitignore
 bienvenue-a-bord/.DS_Store
 bienvenue-a-bord/sb-admin-react/.DS_Store
+bienvenue-a-bord/sb-admin-react/build/.DS_Store
+bienvenue-a-bord/sb-admin-react/build/public/.DS_Store
+bienvenue-a-bord/sb-admin-react/build/public/css/.DS_Store
