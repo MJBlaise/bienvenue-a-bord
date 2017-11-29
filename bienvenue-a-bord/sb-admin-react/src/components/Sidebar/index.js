@@ -14,7 +14,7 @@ class Sidebar extends Component {
       samplePagesCollapsed: true,
     };
   }
-
+  /* Création du composant */
   render() {
     return (
       <div className="navbar-default sidebar" style={{ marginLeft: '-20px' }} role="navigation">
@@ -33,7 +33,7 @@ class Sidebar extends Component {
 
             <li>
               <a href="" onClick={(e) => { e.preventDefault(); history.push('/'); }} >
-                <i className="fa fa-dashboard fa-fw" /> &nbsp;Dashboard
+                <i className="fa fa-dashboard fa-fw" /> &nbsp;Salut
               </a>
             </li>
 
