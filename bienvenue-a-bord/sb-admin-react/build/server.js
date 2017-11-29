@@ -2031,8 +2031,8 @@ module.exports =
                   { href: '', onClick: function onClick(e) {
                       e.preventDefault();_history2.default.push('/');
                     } },
-                  _react2.default.createElement('i', { className: 'fa fa-dashboard fa-fw' }),
-                  ' \xA0Dashboard'
+                  _react2.default.createElement('i', { className: 'fa fa-home' }),
+                  ' \xA0Acceuil'
                 )
               ),
               _react2.default.createElement(
@@ -2048,8 +2048,8 @@ module.exports =
                       return false;
                     }
                   },
-                  _react2.default.createElement('i', { className: 'fa fa-bar-chart-o fa-fw' }),
-                  ' \xA0Charts',
+                  _react2.default.createElement('i', { className: 'fa fa-plane' }),
+                  ' \xA0Mes voyages',
                   _react2.default.createElement('span', { className: 'fa arrow' })
                 ),
                 _react2.default.createElement(

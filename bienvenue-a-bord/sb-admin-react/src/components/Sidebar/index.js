@@ -33,7 +33,7 @@ class Sidebar extends Component {
 
             <li>
               <a href="" onClick={(e) => { e.preventDefault(); history.push('/'); }} >
-                <i className="fa fa-dashboard fa-fw" /> &nbsp;Dashboard
+                <i className="fa fa-home" /> &nbsp;Acceuil
               </a>
             </li>
 
@@ -46,7 +46,7 @@ class Sidebar extends Component {
                   return false;
                 }}
               >
-                <i className="fa fa-bar-chart-o fa-fw" /> &nbsp;Charts
+                <i className="fa fa-plane" /> &nbsp;Mes voyages
                 <span className="fa arrow" />
               </a>
               <ul
