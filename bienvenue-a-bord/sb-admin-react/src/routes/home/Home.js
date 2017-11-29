@@ -38,7 +38,7 @@ function Home(props, context) {
     <div>
       <div className="row">
         <div className="col-lg-12">
-          <PageHeader>Bienvenue à bord !</PageHeader>
+          <PageHeader>Bienvenue à bord </PageHeader>
         </div>
       </div>
 
