@@ -2528,7 +2528,11 @@ module.exports =
           _react2.default.createElement(
             _reactBootstrap.PageHeader,
             null,
+<<<<<<< HEAD
             'Cindy est sur la place okok'
+=======
+            'Bienvenue \xE0 bord !'
+>>>>>>> 365b36bf5649184a107c894c2778e3d747721279
           )
         )
       ),
