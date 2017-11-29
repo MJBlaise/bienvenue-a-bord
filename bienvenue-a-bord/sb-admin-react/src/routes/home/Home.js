@@ -38,24 +38,22 @@ function Home(props, context) {
     <div>
       <div className="row">
         <div className="col-lg-12">
-          <PageHeader>Cindy est sur la place okok</PageHeader>
+          <PageHeader>Bienvenue à bord !</PageHeader>
         </div>
       </div>
 
 
       <div className="row">
-        <div className="col-lg-8">
+        <div className="col-lg-12">
 
           <Panel
             header={<span>
-              <i className="fa fa-bar-chart-o fa-fw" /> Area Chart Example
+              <i className="fa fa-bar-chart-o fa-fw" /> Voyager...
               <div className="pull-right">
-                <DropdownButton title="Dropdown" bsSize="xs" pullRight id="dropdownButton1" >
-                  <MenuItem eventKey="1">Action</MenuItem>
-                  <MenuItem eventKey="2">Another action</MenuItem>
-                  <MenuItem eventKey="3">Something else here</MenuItem>
-                  <MenuItem divider />
-                  <MenuItem eventKey="4">Separated link</MenuItem>
+                <DropdownButton title="Voyage" bsSize="xs" pullRight id="dropdownButton1" >
+                  <MenuItem eventKey="1">Déjà fait</MenuItem>
+                  <MenuItem eventKey="2">À faire</MenuItem>
+                  <MenuItem eventKey="3">Envie..</MenuItem>
                 </DropdownButton>
               </div>
             </span>}
@@ -74,102 +72,6 @@ function Home(props, context) {
               </ResponsiveContainer>
             </div>
 
-          </Panel>
-
-          <Panel
-            header={<span>
-              <i className="fa fa-bar-chart-o fa-fw" /> Bar Chart Example
-              <div className="pull-right">
-                <DropdownButton title="Dropdown" bsSize="xs" pullRight id="dropdownButton2">
-                  <MenuItem eventKey="1">Action</MenuItem>
-                  <MenuItem eventKey="2">Another action</MenuItem>
-                  <MenuItem eventKey="3">Something else here</MenuItem>
-                  <MenuItem divider />
-                  <MenuItem eventKey="4">Separated link</MenuItem>
-                </DropdownButton>
-              </div>
-            </span>}
-          >
-            <div>
-              <ResponsiveContainer width="100%" aspect={2}>
-                <BarChart data={data} margin={{ top: 10, right: 30, left: 0, bottom: 0 }} >
-                  <CartesianGrid stroke="#ccc" />
-                  <XAxis dataKey="name" />
-                  <YAxis />
-                  <Tooltip />
-                  <Bar dataKey="pv" stackId="1" fill="#8884d8" />
-                  <Bar dataKey="uv" stackId="1" fill="#82ca9d" />
-                  <Bar type="monotone" dataKey="amt" fill="#ffc658" />
-                </BarChart>
-              </ResponsiveContainer>
-            </div>
-          </Panel>
-
-          <Panel
-            header={<span>
-              <i className="fa fa-clock-o fa-fw" /> Responsive Timeline
-            </span>}
-          >
-            <div>
-              <ul className="timeline">
-                <li>
-                  <div className="timeline-badge"><i className="fa fa-check" />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4 className="timeline-title">Lorem ipsum dolor</h4>
-                      <p>
-                        <small className="text-muted">
-                          <i className="fa fa-clock-o" /> 11 hours ago via Twitter
-                        </small>
-                      </p>
-                    </div>
-                    <div className="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
-                        laboriosam dolor perspiciatis omnis exercitationem. Beatae, officia
-                        pariatur? Est cum veniam excepturi. Maiores praesentium, porro voluptas
-                        suscipit facere rem dicta, debitis.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li className="timeline-inverted">
-                  <div className="timeline-badge warning"><i className="fa fa-credit-card" />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4 className="timeline-title">Lorem ipsum dolor</h4>
-                    </div>
-                    <div className="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem
-                        quibusdam, tenetur commodi provident cumque magni voluptatem libero, quis
-                        rerum. Fugiat esse debitis optio, tempore. Animi officiis alias, officia
-                        repellendus.
-                      </p>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium
-                        maiores odit qui est tempora eos, nostrum provident explicabo dignissimos
-                        debitis vel! Adipisci eius voluptates, ad aut recusandae minus eaque facere.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div className="timeline-badge danger"><i className="fa fa-bomb" />
-                  </div>
-                  <div className="timeline-panel">
-                    <div className="timeline-heading">
-                      <h4 className="timeline-title">Lorem ipsum dolor</h4>
-                    </div>
-                    <div className="timeline-body">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus
-                        numquam facilis enim eaque, tenetur nam id qui vel velit similique nihil
-                        iure molestias aliquam, voluptatem totam quaerat, magni commodi quisquam.
-                      </p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-            </div>
           </Panel>
 
         </div>
