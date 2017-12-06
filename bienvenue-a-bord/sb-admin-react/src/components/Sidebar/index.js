@@ -33,46 +33,15 @@ class Sidebar extends Component {
 
             <li>
               <a href="" onClick={(e) => { e.preventDefault(); history.push('/'); }} >
-                <i className="fa fa-dashboard fa-fw" /> &nbsp;Salut
+                <i className="fa fa-home fa-fw" /> &nbsp;Accueil
               </a>
             </li>
 
-            <li className={classNames({ active: !this.state.chartsElementsCollapsed })}>
-              <a
-                href=""
-                onClick={(e) => {
-                  e.preventDefault();
-                  this.setState({ chartsElementsCollapsed: !this.state.chartsElementsCollapsed });
-                  return false;
-                }}
-              >
-                <i className="fa fa-bar-chart-o fa-fw" /> &nbsp;Charts
-                <span className="fa arrow" />
+            <li>
+              <a href="" onClick={(e) => { e.preventDefault(); history.push('/Blank'); }} >
+                <i className="fa fa-plane fa-fw" /> &nbsp;Mes voyages
               </a>
-              <ul
-                className={
-                  classNames({
-                    'nav nav-second-level': true,
-                    collapse: this.state.chartsElementsCollapsed,
-                  })
-              }
-              >
-                <li>
-                  <a href="" onClick={(e) => { e.preventDefault(); history.push('/flotcharts'); }} >
-                    FlotCharts
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href=""
-                    onClick={(e) => { e.preventDefault(); history.push('/morrisjscharts'); }}
-                  >
-                    Morrisjs Charts
-                  </a>
-                </li>
-              </ul>
             </li>
-
 
             <li>
               <a href="" onClick={(e) => { e.preventDefault(); history.push('/table'); }} >
