@@ -20,7 +20,7 @@ function displayBlank(props, context) {
           <table>
             <tbody>
               <tr>
-                  <td><img className="img-responsive" src={lisbonne} href="" onClick={(e) => { e.preventDefault(); history.push('/Voyage'); }}/></td>
+                  <td><img className="img-responsive" src={lisbonne} href="" onClick={(e) => { e.preventDefault(); history.push( '/typography'); }}/></td>
                   <td><img className="img-responsive" src={republiqueDominicaine}/></td>
                   <td><img className="img-responsive" src={thailande}/></td>
               </tr>
