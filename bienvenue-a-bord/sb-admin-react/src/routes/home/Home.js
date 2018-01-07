@@ -1,5 +1,4 @@
 
-
 import React, { PropTypes } from 'react';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import {
@@ -60,7 +59,7 @@ function Home(props, context) {
           >
             <div>
               <ResponsiveContainer width="100%" aspect={2}>
-                
+               
               </ResponsiveContainer>
             </div>
 
