@@ -29,11 +29,11 @@ function Login(props, context) {
   return (
     <div className="col-md-4 col-md-offset-4">
       <div className="text-center">
-        <h1 className="login-brand-text">SB Admin React</h1>
-        <h3 className="text-muted">Created by <a href="http://startreact.com">StartReact.com</a> team</h3>
+        <h1 className="login-brand-text">Bievenue à bord !</h1>
+        <h3 className="text-muted">Cindosh & MJ Team</h3>
       </div>
 
-      <Panel header={<h3>Please Sign In</h3>} className="login-panel">
+      <Panel header={<h3>Connectez-vous</h3>} className="login-panel">
 
         <form role="form" onSubmit={(e) => { submitHandler(e); }}>
           <fieldset>
@@ -41,7 +41,7 @@ function Login(props, context) {
               <FormControl
                 type="text"
                 className="form-control"
-                placeholder="Username"
+                placeholder="Login"
                 name="name"
               />
             </div>
@@ -49,13 +49,12 @@ function Login(props, context) {
             <div className="form-group">
               <FormControl
                 className="form-control"
-                placeholder="Password"
+                placeholder="Mot de passe"
                 type="password"
                 name="password"
               />
             </div>
-            <Checkbox label="Remember Me" > Remember Me </Checkbox>
-            <Button type="submit" bsSize="large" bsStyle="success" block>Login</Button>
+            <Button type="submit" bsSize="large" bsStyle="success" block>Connexion</Button>
           </fieldset>
         </form>
 
