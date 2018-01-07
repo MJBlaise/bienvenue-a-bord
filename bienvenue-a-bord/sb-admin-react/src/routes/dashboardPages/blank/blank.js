@@ -24,6 +24,11 @@ function displayBlank(props, context) {
                   <td><img className="img-responsive" src={republiqueDominicaine}/></td>
                   <td><img className="img-responsive" src={thailande}/></td>
               </tr>
+              <tr>
+                  <td>Lisbonne</td>
+                  <td>Republique dominicaine</td>
+                  <td>Thailande</td>
+              </tr>
             </tbody>
           </table>
         </div>
