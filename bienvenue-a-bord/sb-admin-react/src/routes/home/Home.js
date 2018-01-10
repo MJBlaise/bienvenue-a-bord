@@ -30,6 +30,10 @@ const data = [
       { name: 'Page G', uv: 3490, pv: 4300, amt: 2100, value: 100 },
 ];
 
+//Connection à la base de données
+//$bdd = new mysqli('localhost', 'root', '', 'bienvenueabord');
+//if ($bdd->connect_error) die('impossible de se connecter');
+  
 function Home(props, context) {
   context.setTitle(title);
   return (
