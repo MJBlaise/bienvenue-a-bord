@@ -208,9 +208,6 @@ class Sidebar extends Component {
               </ul>
             </li>
 
-            <li>
-              <a href="http://www.strapui.com/">Premium React Themes</a>
-            </li>
           </ul>
         </div>
       </div>
