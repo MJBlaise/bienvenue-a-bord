@@ -1,4 +1,6 @@
 import React, { PropTypes } from 'react';
+import classNames from 'classnames';
+import history from '../../core/history';
 import withStyles from 'isomorphic-style-loader/lib/withStyles';
 import {
   MenuItem,
@@ -53,9 +55,8 @@ function Home(props, context) {
               <i className="fa fa-bar-chart-o fa-fw" /> Voyager...
               <div className="pull-right">
                 <DropdownButton title="Voyage" bsSize="xs" pullRight id="dropdownButton1" >
-                  <MenuItem eventKey="1">Déjà fait</MenuItem>
-                  <MenuItem eventKey="2">À faire</MenuItem>
-                  <MenuItem eventKey="3">Envie..</MenuItem>
+                  <MenuItem eventKey="1" href="/Blank">Mes voyages</MenuItem>
+                  <MenuItem eventKey="2" href="/table">En ce moment</MenuItem>
                 </DropdownButton>
               </div>
             </span>}
