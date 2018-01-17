@@ -62,7 +62,7 @@ function Home(props, context) {
           >
             <div>
               <ResponsiveContainer width="100%" aspect={2}>
-               
+				<img src='https://media.wnyc.org/i/1200/627/c/80/1/shutterstock_175007894.jpg'/>
               </ResponsiveContainer>
             </div>
 
